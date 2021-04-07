@@ -28,4 +28,6 @@ module.exports = (on, config) => {
       webpackConfig,
     })
   );
+
+  return config;
 };
